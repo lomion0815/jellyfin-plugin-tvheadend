@@ -208,7 +208,7 @@ namespace TVHeadEnd.DataHelper
                             if (m.containsField("subtitle"))
                             {
                                 ri.EpisodeTitle = m.getString("subtitle");
-                                i.IsSeries = true;
+                                ri.IsSeries = true;
                             }
                         }
                         catch (InvalidCastException)
